@@ -26,7 +26,7 @@ void main(){
 
 }
 
-  /*void calcTota(int price,int qty,double discount){
+  void calcTota(int price,int qty,double discount){
     calcTota(55,2);
     double discount = 0;
     double result = (price * qty - discount) * (1 + vatRate);
@@ -37,7 +37,7 @@ void main(){
       print('ยอดสุทธิ (ไม่มีส่วนลด): $result');
       print('---');
     }
-  }*/
+  }
 
 
   void printStringLength(String? coupon) {
