@@ -19,12 +19,14 @@ void main(){
     }
   });
   print('---');
-  
+  printStringLength('');
+
+ 
 
 
 }
 
-  void calcTota(int price,int qty,double discount){
+  /*void calcTota(int price,int qty,double discount){
     calcTota(55,2);
     double discount = 0;
     double result = (price * qty - discount) * (1 + vatRate);
@@ -33,6 +35,17 @@ void main(){
     }
     else{
       print('ยอดสุทธิ (ไม่มีส่วนลด): $result');
+      print('---');
     }
-    
+  }*/
+
+
+  void printStringLength(String? coupon) {
+  if (coupon == null) {
+    print('คูปองหลังกำหนดค่า: NO-COUPON');
   }
+
+  int length = coupon?.length ?? 0;
+  print('ความยาวคูปอง: $length');
+
+}
